@@ -1,0 +1,17 @@
+columna,tipo,descripción
+date,datetime,Fecha/hora de observación
+country,str,País o código de país (BO)
+city,str,Ciudad
+lat,float,Latitud (-90 a 90)
+lon,float,Longitud (-180 a 180)
+temp_c,float,Temperatura actual (Â°C)
+temp_min_c,float,Temperatura mínima (Â°C)
+temp_max_c,float,Temperatura máxima (Â°C)
+humidity_pct,float,Humedad relativa (%)
+pressure_hpa,float,Presión atmosférica (hPa)
+wind_mps,float,Velocidad del viento (m/s)
+weather_main,str,Condición meteorológica
+anomaly_c,float,Anomalía anual del país (Â°C)
+temp_bucket,str,Clasificación térmica
+wind_bucket,str,Clasificación de viento
+source,str,Fuente de datos
